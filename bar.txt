@@ -33,3 +33,5 @@ kite test from adding-cool-new-feature
 adding line from adding-cool-new-feature
 
 adding line from adding-cool-new-feature
+
+adding line from adding-cool-new-feature
