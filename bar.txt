@@ -1,5 +1,7 @@
 adding from 'master' branch
 
+yes, adding another line from 'master'
+
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit.
 
