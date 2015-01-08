@@ -6,6 +6,8 @@ blah blah blah from 'master'
 
 adding line from 'master'
 
+adding line from 'master'
+
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit.
 
