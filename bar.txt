@@ -16,4 +16,6 @@ Integer sed tincidunt nulla, aliquam porttitor dui.
 
 adding a line in adding-cool-new-feature branch.
 
-adding nothera line in adding-cool-new-feature branch.
+adding another line in adding-cool-new-feature branch.
+
+foo bar from adding-cool-new-feature
