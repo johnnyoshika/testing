@@ -4,6 +4,8 @@ yes, adding another line from 'master'
 
 blah blah blah from 'master'
 
+adding line from 'master'
+
 Lorem ipsum dolor sit amet,
 consectetur adipiscing elit.
 
