@@ -19,3 +19,5 @@ adding a line in adding-cool-new-feature branch.
 adding another line in adding-cool-new-feature branch.
 
 foo bar from adding-cool-new-feature
+
+kite test from adding-cool-new-feature
