@@ -1,5 +1,7 @@
 adding from 'master' branch
 
+adding line from 'master'
+
 yes, adding another line from 'master'
 
 blah blah blah from 'master'
