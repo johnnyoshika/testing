@@ -1,2 +1,2 @@
-class Reader {
+public class Reader {
 }
