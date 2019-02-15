@@ -3,5 +3,3 @@ line 1
 line 2a
 
 line 3
-
-line 4
