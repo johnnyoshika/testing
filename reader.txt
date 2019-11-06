@@ -1,4 +1,4 @@
 public class Reader {
+  public string Name { get; }
 }
 
-new line
