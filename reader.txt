@@ -1,5 +1,6 @@
 public class Reader {
   public string Name { get; }
   public string Age { get; }
+  public string Gender { get; }
 }
 
