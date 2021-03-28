@@ -26,3 +26,5 @@ michelle
 change from master
 
 blah blah blah
+
+Something into kite from 'bug-fix' branch
