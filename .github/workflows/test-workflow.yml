@@ -1,4 +1,4 @@
-name: Deploy Generate Assessment GCP Workflow
+name: Test workflow
 on:
   push:
     branches:
