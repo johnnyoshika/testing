@@ -1,0 +1,27 @@
+name: Deploy Generate Assessment GCP Workflow
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - '**/test-workflow.yml'
+jobs:
+  test_job:
+    name: Test Job
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        include:
+          - environment: dev
+            site: 'DEV'
+            user: 'dev-user'
+          - environment: prod
+            site: 'PROD'
+            user: 'prod-user'
+    steps:
+      - name: Echo details
+        env:
+          SITE: ${{ matrix.site }}
+          DATACENTER: ${{ matrix.datacenter }}
+        run: echo environment:${{ matrix.environment }} site:${{ matrix.site }} user:${{ matrix.user }}
