@@ -1,0 +1,23 @@
+name: Test 2
+on:
+  push:
+    branches:
+      - master
+      - dev
+jobs:
+  do_something:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        include:
+          - environment: dev
+            label: DEV
+            webhook_url: WEBHOOK_URL_DEV
+          - environment: prod
+            label: PROD
+            webhook_url: WEBHOOK_URL_PROD
+    steps:
+      - name: ${{ format('Echo details for {0}', matrix.label) }}
+        if: ${{ (github.ref == 'refs/heads/dev' && matrix.environment == 'dev') || (github.ref == 'refs/heads/master' && matrix.environment == 'prod') }}
+        run: echo webhook url ${{ secrets[matrix.webhook_url] }}
