@@ -18,6 +18,11 @@ jobs:
             label: PROD
             webhook_url: WEBHOOK_URL_PROD
     steps:
-      if: ${{ (github.ref == 'refs/heads/dev' && matrix.environment == 'dev') || (github.ref == 'refs/heads/master' && matrix.environment == 'prod') }}
+      - name: Set env variable for skipping steps
+        env:
+          CONTINUE: ${{ (github.ref == 'refs/heads/dev' && matrix.environment == 'dev') || (github.ref == 'refs/heads/master' && matrix.environment == 'prod') }}
+      - name: Echo CONTINUE
+        run: echo ${{env.CONTINUE}}
       - name: ${{ format('Echo details for {0}', matrix.label) }}
+        if: ${{ env.CONTINUE }}
         run: echo webhook url ${{ secrets[matrix.webhook_url] }}
