@@ -18,7 +18,7 @@ jobs:
             label: PROD
             webhook_url: WEBHOOK_URL_PROD
     steps:
-      - name: Set env variable for skipping steps
+      - run: echo "Setting up CONTINUE env variable" # Every step must have a 'uses' or 'run' key
         env:
           CONTINUE: ${{ (github.ref == 'refs/heads/dev' && matrix.environment == 'dev') || (github.ref == 'refs/heads/master' && matrix.environment == 'prod') }}
       - name: Echo CONTINUE
