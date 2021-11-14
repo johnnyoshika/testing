@@ -14,21 +14,12 @@ line 7
 
 line 8
 
-line 9
-
-line 10
-
 add cool new feature here too!!!
 
 line 13
 
-line 14
-
 i'm adding a cool new feature here!!!
 
-line 15
-
-line 16
 
 line 16b
 
