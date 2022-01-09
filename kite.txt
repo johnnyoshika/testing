@@ -7,24 +7,3 @@ line 2a
 line 3 of kite
 
 line 4 from mac
-
-line 5 from mac
-
-line 6 from mac
-
-line 6a
-line 6b
-
-line 7 from mac
-
-line 8 from mac future master
-
-line 8a
-
-michelle
-
-change from master
-
-blah blah blah
-
-Change kite.txt
