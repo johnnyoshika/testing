@@ -1,8 +1,4 @@
-Fixes #.
+### Checklist:
 
-Changes proposed in this pull request
-* {insert}
-* {insert}
-* {insert}
-
-Don't forget to @mention relevant users.
+- [ ] Rebase on top of `dev`
+- [ ] Set base branch to `dev`
